@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Only show loading spinner when loading time is too long (after a second)
   setTimeout(() => {
-    document.querySelector("#spinner").classList.remove("invisible");
+    document.querySelector("#spinner").classList.add("show");
   }, 1000);
 });
 
