@@ -1,3 +1,12 @@
+document.addEventListener("DOMContentLoaded", () => {
+  console.debug("DOM content loaded");
+
+  // Only show loading spinner when loading time is too long (after a second)
+  setTimeout(() => {
+    document.querySelector("#spinner").classList.remove("invisible");
+  }, 1000);
+});
+
 // Wait for all the images to be loaded
 window.addEventListener("load", () => {
   console.debug("window loaded");
