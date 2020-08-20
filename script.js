@@ -21,11 +21,14 @@ window.addEventListener("load", () => {
   spinner.classList.remove("show");
 
   setTimeout(() => {
+    // Stop displaying loading spinner
     spinner.classList.add("d-none");
 
-    // Start the fadein animation on main
-    let main = document.querySelector("main");
-    main.classList.add("fadein");
-    main.classList.remove("invisible");
+    setTimeout(() => {
+      // Start the fadein animation on main
+      let main = document.querySelector("main");
+      main.classList.add("fadein");
+      main.classList.remove("invisible");
+    }, 500);
   }, 500);
 });
