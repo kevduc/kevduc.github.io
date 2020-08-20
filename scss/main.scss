@@ -18,6 +18,15 @@
   }
 }
 
-main {
-  animation: fadein 2s ease-out;
+.fadein {
+  animation: fadein 2s ease-out forwards;
+}
+
+#spinner {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
