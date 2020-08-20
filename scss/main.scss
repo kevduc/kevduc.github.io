@@ -6,3 +6,18 @@
   min-height: 21px;
   width: auto;
 }
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(-2em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main {
+  animation: fadein 2s ease-out;
+}
