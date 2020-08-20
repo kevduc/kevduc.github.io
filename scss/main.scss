@@ -1,0 +1,8 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.logo {
+  @include rfs(64px, height);
+  max-height: 64px;
+  min-height: 21px;
+  width: auto;
+}
