@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Mug Egg",
+    "recipe": "You know mug cakes? Remove the flour, butter and sugar and this is what you get.",
+    "pictures": [{ "file": "mug-egg.jpg", "date": "10/05/2015" }]
+  },
+  {
+    "name": "Salade Niçoise",
+    "description": "Anchovies and black olives will tickle your tongue and awake your senses.",
+    "pictures": [{ "file": "salade-nicoise.jpg", "date": "21/04/2019" }]
+  },
+  {
+    "name": "Fondant au Chocolat",
+    "description": "One of the quickest and easiest recipies, but the secret is to know when to stop cooking it.<br>(tip to remember the recipe: quantities are multiples of 50)",
+    "recipe": {
+      "ingredients": [
+        { "quantity": "200", "unit": "g", "name": "chocolate" },
+        { "quantity": "150", "unit": "g", "name": "sugar" },
+        { "quantity": "100", "unit": "g", "name": "butter" },
+        { "quantity": "50", "unit": "g", "name": "flour" },
+        { "quantity": "3", "name": "eggs" }
+      ],
+      "steps": [
+        "Melt the chocolate and the butter together.",
+        "Mix the eggs and the sugar together, and add the melted chocolate and butter.",
+        "Add the flour.",
+        "Bake for ~30mins @ ~200°C."
+      ]
+    },
+    "pictures": [{ "file": "fondant-au-chocolat.jpg", "date": "01/06/2019" }]
+  },
+  {
+    "name": "Quiche au Cantal",
+    "description": "This quiche is made with Cantal, a cheese from Auvergne (the region I'm from in France).<br>We use Cantal Jeune (\"Young Cantal\") which has a not too strong taste.<br>And this is my mom's recipe! So you know it's got to be good.",
+    "recipe": {
+      "ingredients": [
+        { "quantity": "1", "name": "puff or shortcrust pastry" },
+        { "quantity": "400-500", "unit": "g", "name": "cantal jeune" },
+        { "quantity": "25", "unit": "cl", "name": "double cream" },
+        { "quantity": "25", "unit": "cl", "name": "milk" },
+        { "quantity": "5", "name": "eggs" }
+      ],
+      "steps": [
+        "Cut the Cantal in ~3cm cubes.",
+        "Mix the double cream, the milk and the eggs together.",
+        "Lay the pasty over a big enough tart tin.",
+        "Spread the cubes evenly over the pastry.",
+        "Pour the egg-diary mixture over.",
+        "Cook until the egg mixture is cooked (doesn't stick to a knife) for ~30mins @ 200°C."
+      ]
+    },
+    "pictures": [
+      { "file": "quiche-au-cantal-1.jpeg", "date": "14/04/2021" },
+      { "file": "quiche-au-cantal-2.jpeg", "date": "14/04/2021" },
+      { "file": "quiche-au-cantal-3.jpeg", "date": "14/04/2021" },
+      { "file": "quiche-au-cantal-4.jpeg", "date": "18/11/2019" }
+    ]
+  },
+  {
+    "name": "Macarona Bechamel",
+    "description": "Egyptian recipe of my mother-in-law, you know this one will be good.",
+    "recipe": {
+      "ingredients": [],
+      "steps": []
+    },
+    "pictures": [{ "file": "macarona-bechamel.jpg", "date": "27/01/2020" }]
+  },
+  {
+    "name": "Salade Composée",
+    "description": "Get some good healthy (or not) ingredients and put them all together to make a tasty mixed salad. I like mine colorful.",
+    "recipe": {
+      "ingredients": [
+        "corn",
+        "kidney beans",
+        "tomatoes",
+        "corn salad",
+        "grated carrots",
+        "gruyère cubes",
+        "black olives",
+        "beetroot",
+        "apple",
+        "Any sauce you like (I recommend vinaigrette)"
+      ],
+      "steps": ["Mix it all together!"]
+    },
+    "pictures": [{ "file": "salade-composee.jpg", "date": "28/02/2020" }]
+  },
+  {
+    "name": "Petits Cochons",
+    "description": "Marzipan covered pastry cream & sponge cake sandwich. Traditionally shaped like small pigs, but make your own shapes, it's fun to have people guess.",
+    "recipe": {
+      "ingredients": [],
+      "steps": []
+    },
+    "pictures": [
+      { "file": "petits-cochons-1.jpg", "date": "30/04/2020" },
+      { "file": "petits-cochons-2.jpg", "date": "30/04/2020" },
+      { "file": "petits-cochons-3.jpg", "date": "30/04/2020" }
+    ]
+  },
+  {
+    "name": "Kunafa",
+    "description": "Another Egyptian recipe from my mother-in-law, whether you have a sweet tooth or not, you're in for a treat.",
+    "recipe": {
+      "ingredients": [],
+      "steps": []
+    },
+    "pictures": [
+      { "file": "kunafa-1.jpg", "date": "12/09/2020" },
+      { "file": "kunafa-2.jpg", "date": "12/09/2020" }
+    ]
+  },
+  {
+    "name": "Ratatouille Canelle-Cumin",
+    "description": "The traditional Ratatouille with a good amount of spices.",
+    "recipe": {
+      "ingredients": [],
+      "steps": []
+    },
+    "pictures": [
+      { "file": "ratatouille-1.jpg", "date": "11/04/2021" },
+      { "file": "ratatouille-2.jpg", "date": "11/04/2021" }
+    ]
+  },
+  {
+    "name": "Crumpets Eggs Royale",
+    "description": "I put this one here because I LOVE runny egg yolks with salmon and a squeeze of lemon. I discovered this in the UK. Don't get me wrong, I usually follow the stereotype and complain about food in the UK, but I have to give this one to the British.",
+    "recipe": {
+      "ingredients": ["smoked salmon", "eggs", "lemon", "crumpets"],
+      "steps": [
+        "Boil (or break and microwave in a mug each of) the eggs for ~5mins.",
+        "Toast or heat up the crumpets, then put a slice of smoked salmon, lemon juice, and a peeled egg on top."
+      ]
+    },
+    "pictures": [{ "file": "crumpets-eggs-royale.jpg", "date": "21/05/2021" }]
+  }
+]
