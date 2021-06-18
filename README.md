@@ -1,5 +1,5 @@
 # kevduc.github.io
 
-Personal website
+👨‍💻 Personal website
 
 https://kevduc.github.io/
