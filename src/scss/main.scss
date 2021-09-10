@@ -1,10 +1,19 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-img.logo {
+li {
   @include rfs(64px, height);
   max-height: 64px;
   min-height: 21px;
-  width: auto;
+
+  @include rfs(64px, width);
+  max-width: 64px;
+  min-width: 21px;
+}
+
+img.logo {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
 
   user-select: none;
   pointer-events: none;
@@ -13,7 +22,7 @@ img.logo {
 @keyframes fadein {
   from {
     opacity: 0;
-    transform: translateY(-2em);
+    transform: translateY(-1em);
   }
   to {
     opacity: 1;
